@@ -11,19 +11,33 @@ export const styles = StyleSheet.create({
     paddingVertical: 20,
   },
   searchAndFilters: {
-    width: '90%',
+    width: '100%',
+    paddingHorizontal: 20,
   },
   searchBar: {
-    width: '80%',
+    width: '100%',
+    borderWidth: 1,
+    borderColor: 'black',
+    borderRadius: 15,
+    height: 40,
+    marginBottom: 10,
+  },
+  filters: {
+    width: '100%',
     borderWidth: 1,
     borderColor: 'black',
   },
-  Filters: {
-    width: '80%',
+  filterItem: {
     borderWidth: 1,
     borderColor: 'black',
+    borderRadius: 10,
+    marginHorizontal: 5,
+    padding: 5,
   },
-  Images: {
+  textInsideFilterItem: {
+    textAlign: 'center',
+  },
+  images: {
     width: '80%',
     borderWidth: 1,
     borderColor: 'black',
